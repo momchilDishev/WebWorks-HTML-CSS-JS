@@ -10,29 +10,17 @@
 }
 
  .searchArea{
-        height: 35px;
+        height: 33px;
         width: 260px;
-        border-radius:5px;
-        border: 1px solid #D5D5D5;
-        border-top-width: 1px;
-        border-bottom-width: 1px;
-        border-top-style: solid;
-        border-bottom-style: solid;
-        border-top-color: #D5D5D5;
-        border-bottom-color: #D5D5D5;
-        border-image-source: none;
-        border-image-slice: 100% 100% 100% 100%;
-        border-image-width: 1 1 1 1;
-        border-image-outset: 0 0 0 0;
-        border-image-repeat: stretch stretch; 
+        
+        
+        
         
     }
-.searchInput {
+.search-form {
             background-color: #FFF;
-            height: 32px;
-            width:220px;
             font-size: 1.4rem;
-            float: left;
+            border-radius:5px;
             border-image-source: none;
             border-image-slice: 100% 100% 100% 100%;
             border-image-width: 1 1 1 1;
@@ -40,16 +28,22 @@
             border-image-repeat: stretch stretch;
             
 }
-button {
-    outline: medium none;
-    outline-width: medium;
-    outline-style: none;
-    
+
+.searchInput {
+            border-radius: 5px 0px 0px 5px;
+            width:220px; 
+            height:31px;
 }
+
 .searchButton { 
-            width: 32px;
-            height: 30px;
+            background-color:inherit;
+            
+            border-radius: 0px 5px 5px 0px;
+            border:1px solid #D5D5D5;
+            width: 34px;
+            height: 37px;
             float: right;
+            background-image: url('search-magni-glass.png');
                
 }
 
@@ -62,5 +56,8 @@ button {
     height:50px;
     width:50px;
     
+}
+.colspanned {
     
+    padding: 7pt 20px 13px 10px;
 }

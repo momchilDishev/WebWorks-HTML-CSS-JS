@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>WebsiteHeader</title>
-    <link href="04-styles.css" rel="stylesheet" />
+    <link href="styles/04-styles.css" rel="stylesheet" />
 </head>
 <body >
     <table class="main">
@@ -10,7 +10,7 @@
             <td>
                 <table>
                     <tr>
-                        <td ></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -25,7 +25,7 @@
                         <td class="empty"></td>
                     </tr>
                     <tr>
-                        <td>
+                        <td >
                             <a href="https://softuni.bg/news">NEWS</a>
                         </td>
                     </tr>
@@ -40,7 +40,9 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td><a href="https://softuni.bg/about">ABOUT THE UNIVERSITY</a></td>
+                        <td>
+                            <a href="https://softuni.bg/about">ABOUT THE UNIVERSITY</a>
+                        </td>
                     </tr>
                 </table>
             </td>
@@ -50,7 +52,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td>
+                        <td >
                             <a href="https://softuni.bg/trainings/courses/list">TRAINING COURSES</a>
                         </td>
                     </tr>
@@ -59,47 +61,30 @@
             <td>
                 <table>
                     <tr class="empty">
-                        <td></td>
+                        <td colspan="2">
+                            <div class="searchArea">
+                                <form  class="search-form" action="/Search/Results" autocomplete="off" method="get" novalidate="novalidate">
+                                    <input class="searchInput" type="text" name="query" placeholder="Search..." maxlength="100"/>
+                                    <button  class="searchButton" type="submit"><img src=" search-magni-glass.png" /></button>
+                                </form>
+                            </div>
+
+                        </td>
                     </tr>
-                    <tr>
-                        <td class="lowText">
-                            <a href="https://softuni.bg/companies">FOR COPANIES</a>
+                    <tr >
+                        <td class="colspanned">
+                            <a href="https://softuni.bg/companies">FOR COMPANIES</a>
+                        </td>
+                        <td class="colspanned">
+                            <a href="https://softuni.bg/forum">FORUM</a>
+                        </td>
+                        <td class="colspanned">
+                            <a href="https://softuni.bg/contacts">CONTACTS</a>
                         </td>
                     </tr>
                 </table>
             </td>
-            <td>
-                <table>
-                    <tr class="empty">
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://softuni.bg/forum">FORUM</a>
-                        </td>
-                    </tr>
-                </table>
-            </td>                    
-            <td>
-                <table> 
-                    <tr class="empty">
-                        <td>
-                            <div class="searchArea">
-                                <form  class="searchInput" action="/Search/Results" autocomplete="off" method="get" novalidate="novalidate">
-                                    <input type="text" name="query" placeholder="Search..." maxlength="100"/>
-                                    <button  class="searchButton" type="submit"></button>
-                                </form>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://softuni.bg/contacts">CONTACTS</a>
-                        </td>
-                    </tr>
-               </table>
-             </td>
-            </tr>          
+            
         </table>
     
 </body>
