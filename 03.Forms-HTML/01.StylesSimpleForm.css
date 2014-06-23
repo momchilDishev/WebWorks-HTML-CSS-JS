@@ -1,0 +1,63 @@
+﻿.whole{ 
+    padding-left:10px;
+    width: 730px;
+    height:470px;
+    background-color:#EEEEEE;
+    font-family: 'PT Sans',Tahoma,sans-serif;
+}
+
+h1 {
+    color: #1E4062;
+}
+
+h4 {
+    margin-left: 9px;
+}
+td {
+    width:350px;
+    height:200px;
+    
+}
+
+.firstForm {
+    padding-left:10px;
+    width:323px;
+    height:100px;
+}
+
+.secondForm {
+    background-color:#234465;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 31px;
+    width:323px;
+    height:100px;
+}
+
+input {
+    width:300px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-top: 10px;
+    margin:8px;
+}
+
+.button {
+    border:1px solid;
+    width: 147px;
+    
+   
+}
+
+.login {
+    margin-left: 36px; 
+    margin-top: -7px;
+    border:2px solid orange; 
+    background-color: inherit; 
+    color: inherit;
+}
+
+a {
+    color:white;
+}

@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="02.StylesFlightOrder.css" rel="stylesheet" />
+    <title>02.Flight Order</title>
+</head>
+<body>
+    <div class="main">
+        <section>
+            <header>
+                <h1>flight order</h1>
+            </header>
+                <form method ="get">
+                    <div>
+                        <div class="lefted">
+                            <label for="departure-input">From</label>
+                            <p>
+                                <select class="big " id="departure-input"  name="departure-input" >
+                                    <option value="1">enter a city</option>
+                                    <option value="2">Jupiter</option>
+                                    <option value="3">Venus</option>
+                                    <option value="4">Earth</option>
+                                </select>
+                            </p>       
+                        </div>
+                        <div class="lefted" >
+                            <label for="return-input">To</label>
+                            <p>
+                                <select class="big lefted" id="return-input" name="return-input">
+                                    <option value="1">enter a city</option>
+                                    <option value="2">Saturn</option>
+                                    <option value="3">Neptune</option>
+                                    <option value="4">Sun</option>
+                                </select>
+                            </p>
+                        </div >
+                        <div class="lefted" style="margin-top: -8px; font-size: 14px;">
+                            <input id="prefer-directs-input" type="checkbox" name="prefer-directs" style="-moz-appearance: button;"/>
+                            <label for="prefer-directs-input">Prefer directs</label>
+                        </div>
+                               
+                        <div class="lefted" style="margin-top: -9px;">
+                            <label for="departure-date-input">Departure Date</label>
+                            <p>
+                                <input class="big" id="departure-date-input"  pattern="\d{1,2}/\d{1,2}/\d{4}" type="text" placeholder="09.06.2014" name="departure-date" title="day/month/year"/>
+                            </p>
+                        </div>    
+                        <div class="lefted" style="width: 184px; margin-top: -9px;">
+                            <label for="departure-time-interval-from departure-time-interval-to">Time Interval</label>
+                            <p>
+                                <input  id="departure-time-interval-from" type="time" value="00:20" name="departure-time-interval-from"/>
+                                <input  id="departure-time-interval-to" type="time" value="05:00" name="departure-time-interval-to"/>
+                            </p>
+                        </div>
+                        
+                    <div class="lefted Topper" >
+                        <label for="return-date-input">Return Date</label>
+                        <p>
+                            <input class="big" id="return-date-input" type="text" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="13.06.2014" name="return-date" title="day/month/year"/>
+                        </p>
+                    </div>
+                    <div class="lefted Topper" style="width: 184px;">
+                        <label for="return-time-interval-from arrival-time-interval-to">Time Interval</label>
+                        <p>
+                            <input id="return-time-interval-from" type="time" value="16:00" name="return-time-interval-from"/>
+                            <input id="return-time-interval-to" type="time" value="22:00" name="return-time-interval-to"/>
+                        </p>
+                    </div>
+                    <div class="lefted Topper" style="margin-left: 6px;margin-right: 2px;">
+                        <label for="12+">12+</label>
+                        <p>
+                            <input class="small" id="12+" type="number" min="0" max="10" value="0"/>
+                        </p>
+                    </div>
+                    <div class="lefted Topper" style="margin-left: 2px;margin-right: 2px;">
+                        <label for="2-12">2-12</label>
+                        <p>
+                            <input class="small" id="2-12" type="text"  title="digits only" pattern="\d+" value="0"/>
+                        </p>
+                    </div >
+                    <div class="lefted Topper" style="margin-left: 2px;margin-right: 2px;">
+                         <label for="0-2">0-2</label>
+                        <p>
+                            <input class="small" id="0-2" type="text"  title="digits needed"   pattern="\d+" value="0"/>
+                        </p>
+                    </div>
+                    <div class="lefted Topper">
+                        <label for="class">Choose class</label>
+                        <p>
+                            <select  class="big" id="class" name="class">
+                                <option value="1" selected="selected">Economy class</option>
+                                <option value="2">Business class</option>
+                                <option value="3">First class</option>
+                                <option value="4">Gipsy class</option>
+                                <option value="3">Pimp class</option>
+                            </select>
+                        </p>
+                        <button class="big" type="submit" style="margin-top: 5px;">
+                            <span >Search</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

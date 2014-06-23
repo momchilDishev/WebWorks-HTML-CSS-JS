@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="03.WorldpressStyles.css" rel="stylesheet" />
+    <title>03.WorldPressTheme</title>
+</head>
+<body>
+    <header>
+        <img src="world-press-line.jpg" />
+    </header>
+    <section>
+        <div>
+            <form method="get">
+                <label for="choose file">Upload a theme
+                    <input id="choose file" type="file" value="Choose file"/>
+                </label>
+            </form>
+        </div>
+        <div style="margin-top: 10px;">
+            <form method="get" action="https://wordpress.org/themes/search.php" >
+                <label for="search">Or search in worldpress</label>
+                <input id="search" name="q" type="text" style=" height: 24px;"/>
+                <input class="button" type="submit" value=""/>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+﻿body {
+}
+.main{
+    background-color:pink;
+    width:413px;
+    height:320px;
+   
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-family: Consolas;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: -16px;
+    padding-top: 12px;
+    margin-top: 0px;
+}
+
+label {
+    font-style: italic;
+}
+
+p {
+    margin: 0px;
+}
+
+.big {
+    width:189px;
+    height:25px;
+}
+div {
+    margin-left:5px;
+    margin-right:1px;
+    margin-bottom:8px;
+    margin-top: 3px;
+}
+
+.lefted {
+    float:left;
+}
+
+input[type="time"]{
+    width: 45%;
+    height: 25px;
+}
+
+.Topper {
+    margin-top: -4px;
+}
+.small {
+    width: 56px;
+}
+
+input {
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+select {
+    border: 1px solid grey;
+    border-radius: 2px;
+}

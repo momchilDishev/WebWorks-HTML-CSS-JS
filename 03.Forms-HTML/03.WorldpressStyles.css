@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.button {
+    background:url(world-press-logo.png) no-repeat #fff;
+    background-color:#fff;
+    height:25px;
+    border: none;
+    margin:0px;
+    position: relative;
+    top: 6px;
+    right: 6px;
+}
+
+input[type=submit]{
+      width:29px;
+      
+}
