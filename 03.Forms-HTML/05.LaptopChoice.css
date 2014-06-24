@@ -1,0 +1,71 @@
+﻿body {
+    font-family:sans-serif;
+    color:#24395A;
+}
+
+div {
+    float:left;
+    height:383px;
+}
+
+input {
+    border:1px solid #E6F4FC;
+    border-radius: 3px 3px 0px 3px;
+    width:122px;
+    height:149px; 
+}
+
+.one {
+    background:url(apple-laptops/1.png) no-repeat #fff;
+}
+
+.two {
+    background:url(apple-laptops/2.png) no-repeat #fff;
+}
+
+.three {
+    background:url(apple-laptops/3.png) no-repeat #fff;
+}
+
+.four {
+    background:url(apple-laptops/4.png) no-repeat #fff;
+}
+
+.five {
+    background:url(apple-laptops/5.png) no-repeat #fff;
+}
+
+.six {
+    background:url(apple-laptops/6.png) no-repeat #fff;
+}
+
+.ranger {
+    border:2px solid #E6F4FC;
+    background-color:#F7FCFF;
+    text-align:center;
+    margin-left:10px;
+    width:145px;
+    font-size:12px;
+}
+
+p {
+    margin:3px;
+   
+}
+
+input[type=range] {
+    padding: 0px;
+    height: 0px;
+    margin:5px;
+    margin-bottom:15px;
+    width:135px;
+}
+
+p label {
+    float:left;
+    font-size: 10px;
+    
+}
+    p label+label{
+        float:right;
+    }
