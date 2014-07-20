@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>02.Kent's Media Profile</title>
+    <link href="02.Kent'sMediaProfile.css" rel="stylesheet" />
+</head>
+<body>
+  <main>
+      <header>
+              <h1>
+                  Profile
+              </h1>
+          </header>
+      <section id="profPic">
+            <label for="pic">
+                User: Kent
+            </label>
+            <figure>
+                <img src="pictures/kent.png"/>
+            </figure>
+                <figcaption style="font-size:17px;">
+                    Profile completed: 60%
+                    <meter value="0.6" style="width:165px;"></meter>
+                </figcaption>
+      </section>
+      <section id="audion">
+            <label>
+                Uploaded Audio Files
+            </label>
+            <p>
+               <embed height="105" width="255" src="mp3/Brent Lewis - Potent_Potion.mp3" type="audio/mp3"/>
+                <audio controls="controls" >
+                    <source src="mp3/Brent Lewis - monkeyhipT7.mp3" type="audio/mp3"/>
+                    Your browser does not support the &lt;audio&gt; tag.
+                </audio>  
+                <audio controls="controls" >
+                   <source src="mp3/Brent Lewis - Bone_To_Bone.mp3" type="audio/mp3"/>
+                    Your browser does not support the &lt;audio&gt; tag.
+                </audio>
+               <audio controls="controls" >
+                   <source src="mp3/Brent Lewis - Buckwheats_Revenge .mp3" type="audio/mp3"/>
+                    Your browser does not support the &lt;audio&gt; tag.
+                </audio>
+            </p> 
+      </section>
+      <section id="videon">
+          <label> 
+              Uploaded Video Files
+          </label>
+          <p>
+              <video controls="controls" poster="pictures/video-caption.png">
+                  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" media="all and (max-width:480px)"/>
+                  <track src="http://www.jwplayer.com/wp-content/uploads/html5/assets/captions.vtt" kind="captions">
+                    Your browser does not support the video tag.
+              </video>
+          </p>
+      </section>
+  </main>
+
+</body>
+</html>

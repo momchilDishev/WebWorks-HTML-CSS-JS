@@ -1,0 +1,64 @@
+﻿body {
+    font-family: Calibri;
+    font-size:100%;
+}
+
+* {
+    margin:10px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+#header {
+    border-bottom:1px solid grey;
+    
+    margin:15px;
+}
+
+h1 {
+    margin:15px;
+}
+a {
+            text-decoration:none;
+        }
+
+        li {
+            list-style-type:none;
+        }
+
+nav li{
+    text-transform:uppercase;
+    
+    display:inline-block;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+fieldset {
+    float:right;
+    width:246px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    display:inline-block;
+    
+}
+footer div{
+    float: left;
+    margin:10px;
+    display:inline;
+    width: 18%;
+}
+
+.grey {
+    color:grey;
+}
+
+#main {
+    text-align:center;
+    width:300px;
+}

@@ -1,0 +1,162 @@
+﻿body {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: #00923E;
+    width: 1215px;
+    height: 445px;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Calibri;
+    
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 20px;
+    border-spacing: 0px;
+    width: 1170px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.b-radius-topleft {
+    border-radius: 19px 0 0 0;
+}
+
+.b-radius-topright {
+    border-radius: 0 19px 0 0;
+}
+
+.b-radius-bottomright {
+    border-radius: 0 0 19px 0;
+}
+
+.b-radius-bottomleft {
+    border-radius: 0 0 0 19px;
+}
+
+th {
+    background-color: #F8C711;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+    td.align-right {
+        padding-left:75px;
+    }
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #C8C8C8;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+    
+}
+
+.align-left {
+    text-align: left;
+    
+}
+
+label {
+    width: 20px;
+    margin-top: 8px;
+}
+
+#brazil, #spain, #italy, #argentina, #germany {
+    margin-left: 5px;
+}
+
+#mexico, #netherlands, #england, #bosnia-herz, #portugal {
+    margin-right: 5px;
+}
+
+#brazil {
+    content: url('pictures/brazil.jpg');
+}
+
+#spain {
+    content: url('pictures/spain.jpg');
+}
+
+#italy {
+    content: url('pictures/italy.jpg');
+}
+
+#argentina {
+    content: url('pictures/argentina.jpg');
+}
+
+#germany {
+    content: url('pictures/germany.jpg');
+}
+
+#mexico {
+    content: url('pictures/mexico.jpg');
+}
+
+#netherlands {
+    content: url('pictures/netherlands.jpg');
+}
+
+#england {
+    content: url('pictures/england.jpg');
+}
+
+#bosnia-herz {
+    content: url('pictures/bosnia-herz.jpg');
+}
+
+#portugal {
+    content: url('pictures/portugal.jpg');
+}
+
+input[type=submit] {
+    border: 1px solid groove;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+    padding: 15px 10px;
+    font-weight:bold;
+   	text-transform: capitalize;
+    borde
+     
+}
+
+input[type=submit].green {
+    background-color:green;
+}
+
+select {
+    color:red;
+    padding: 5px 0;
+    font-size:20px;
+}
+
+    select.active {
+        color:green;
+    }

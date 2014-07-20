@@ -1,0 +1,130 @@
+﻿body {
+    color: white;
+    font-family: "PT Sans",Tahoma,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #234465;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    height: 121px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure {
+    float: left;
+    margin-left: 10px;
+    width: 20%;
+}
+
+.upper, .nav {
+    width: 850px;
+    height: 50PX;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+
+label {
+    content: url(pictures/bell.png);
+    vertical-align: -8px;
+}
+
+.caret {
+    content: url(pictures/caret.png);
+}
+
+input[type="search"] {
+    width: 200px;
+    height: 30px;
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px 0 0 5px;
+    float: left;
+    margin-right: 0;
+}
+
+input[type='submit'] {
+    background: url(pictures/magni-glass.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 0 5px 5px 0;
+    padding: inherit;
+    padding-left: 5px;
+    margin-left: 0;
+}
+
+.search-area {
+    width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+
+
+.user {
+    float: right;
+    display:inline-block;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "PT Sans",Tahoma,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav {
+    display: inline-block;
+}
+
+    .nav ul li:hover {
+        background-color: #FF9C00;
+        border: 1px solid #FF9C00;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+
+    li > ul, .user ul li ul {
+        display: none;
+       
+    }
+
+
+    li:hover ul, .user ul li:hover ul {
+        display: block;
+        width:310px;
+    }
+
+
+    nav ul li a{
+    display: block;
+    padding: 5px 0;
+    border-bottom: solid 1px #44607C
+   }

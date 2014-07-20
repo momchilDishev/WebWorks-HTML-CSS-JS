@@ -1,0 +1,59 @@
+﻿body {
+}
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-size:100%;
+
+}
+#main {
+    width:675px;
+    height:305px;
+    background-color:black;
+    border:1px solid black;
+    margin: 10px;
+    border-radius:10px;
+    font-family:Calibri;
+    display: inline-block;
+
+}
+
+h1 {
+    text-align:center;
+    color:yellow;
+    font-size:40px;
+    font-weight:bold;
+}
+#pictures-frame {
+    
+    display: inline-block;
+    margin: 15px;
+    float:left;
+}
+
+iframe {
+    border: 1px solid yellow;
+}
+
+#car-nav {
+    float:left;
+    display: inline-block;
+    margin: 15px;
+}
+
+
+li {
+   color:white;
+   font-size:32px;
+   font-style:italic;
+   text-decoration:none;
+   list-style-type:none;
+
+}
+
+a {
+    text-decoration:none;
+    text-decoration-color:none;
+    color:white;
+}

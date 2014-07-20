@@ -1,0 +1,68 @@
+﻿body {
+    
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    font-size:100%;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+main {
+    width:842px;
+    height:287px;
+    background-color:#FFC0CB;
+    color:black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin:10px;
+    font-family:'Times New Roman';
+
+}
+
+h1 {
+    text-align:center;
+    font-size: 30px;
+    margin: 5px;
+}
+
+#profPic, #audion, #videon{
+    margin-left:10px;
+    width: 187px;
+    float:left;
+    height:232px
+
+}
+
+img {
+    width:100%;
+    height:100%;
+}
+
+label {
+    font-size:17px;
+}
+
+audio {
+    width: 255px;
+}
+
+#audion {
+    width:255px;
+}
+
+#videon {
+    height:232px;
+    width:360px;
+    margin-right:10px;
+}
+
+video {  
+   width:100%; 
+   max-width:500px; 
+   height:211px;;
+}
